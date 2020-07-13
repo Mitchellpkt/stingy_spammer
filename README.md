@@ -1,4 +1,6 @@
-# Stingy Spammer attack
+# Stingy spammer attack
+
+Isthmus / Mitchell 2020-07-13
 
 The stingy spammer attack is an inexpensive way to bloat privacy coins that meet two criteria:
 -  The protocol accepts transactions with `fee=0`
