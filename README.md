@@ -1,7 +1,7 @@
 # Stingy Spammer attack
 
 The stingy spammer attack is an inexpensive way to bloat privacy coins that meet two criteria:
--  The protocol accepts transactions with 0 fee
+-  The protocol accepts transactions with `fee=0`
 -  The protocol does not verify that `sum(inputs)>0`
 
 Privacy protocols typically allow the creation of dummy outputs that contain no value. Due to encrypted transaction amounts, an outside observer cannot distinguish between value-bearing versus 0-value outputs.
